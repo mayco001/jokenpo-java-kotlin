@@ -22,7 +22,7 @@ public class jokenpoJava {
 
         scan.close();
 
-        //logica do jogador
+        // logica do jogador
         switch (jogador) {
             case 1:
                 System.out.println("----------------------------");
@@ -38,10 +38,10 @@ public class jokenpoJava {
                 break;
             default:
                 System.out.println("----------------------------");
-                System.out.println("Error");
+                System.out.println("Error java");
         }
 
-        //logica do computador
+        // logica do computador
         computador = (int) (Math.random() * 3 + 1);
         switch (computador) {
             case 1:
@@ -58,7 +58,7 @@ public class jokenpoJava {
                 break;
         }
 
-        //logica para determinar o vencedor
+        // logica para determinar o vencedor
         if (jogador == computador){
             System.out.println("----------------------------");
             System.out.println("empate");
